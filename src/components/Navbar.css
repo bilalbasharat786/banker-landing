@@ -1,0 +1,38 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: orange;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.socials i {
+  font-size: 16px;
+  color: white;
+}
+.socials i:hover {
+  color: orange;
+}
